@@ -15,7 +15,7 @@ X = vectorizer.fit_transform(datas['CHAT'])
 clf = DecisionTreeClassifier()
 clf.fit(X, datas['REPLY'])
 
-st.title("Simple Chatbot")
+st.title("Chatbot")
 
 user_input = st.text_input("Ask me: ", "")
 
